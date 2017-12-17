@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Azure.DocumentDB.Core" Version="1.7.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Nibo.SpaceJam.Infraestructure.Extensions\Nibo.SpaceJam.Infraestructure.Extensions.csproj" />
+    <ProjectReference Include="..\Nibo.SpaceJam.Models\Nibo.SpaceJam.Models.csproj" />
+    <ProjectReference Include="..\Nibo.SpaceJam.Repository.Abstractions\Nibo.SpaceJam.Repository.Abstractions.csproj" />
+  </ItemGroup>
+
+</Project>

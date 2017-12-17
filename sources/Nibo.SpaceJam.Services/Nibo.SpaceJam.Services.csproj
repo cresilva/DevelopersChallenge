@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.1-beta1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Nibo.SpaceJam.Infraestructure.Extensions\Nibo.SpaceJam.Infraestructure.Extensions.csproj" />
+    <ProjectReference Include="..\Nibo.SpaceJam.Infraestructure\Nibo.SpaceJam.Infraestructure.csproj" />
+    <ProjectReference Include="..\Nibo.SpaceJam.Models\Nibo.SpaceJam.Models.csproj" />
+    <ProjectReference Include="..\Nibo.SpaceJam.Repository.Abstractions\Nibo.SpaceJam.Repository.Abstractions.csproj" />
+    <ProjectReference Include="..\Nibo.SpaceJam.Services.Abstractions\Nibo.SpaceJam.Services.Abstractions.csproj" />
+  </ItemGroup>
+
+</Project>

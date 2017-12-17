@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>bin\Debug\netstandard2.0\Nibo.SpaceJam.Models.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.1-beta1" />
+    <PackageReference Include="System.ComponentModel.Annotations" Version="4.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Nibo.SpaceJam.Infraestructure.Extensions\Nibo.SpaceJam.Infraestructure.Extensions.csproj" />
+    <ProjectReference Include="..\Nibo.SpaceJam.Infraestructure.Resources\Nibo.SpaceJam.Infraestructure.Resources.csproj" />
+  </ItemGroup>
+
+</Project>

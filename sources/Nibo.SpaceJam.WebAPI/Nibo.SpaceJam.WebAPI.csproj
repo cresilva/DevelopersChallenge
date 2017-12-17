@@ -1,0 +1,45 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>bin\Debug\netcoreapp2.0\Nibo.SpaceJam.WebAPI.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="4.6.2" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="4.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.3" />
+    <PackageReference Include="Microsoft.Azure.DocumentDB.Core" Version="1.7.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="1.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Nibo.SpaceJam.Infraestructure.Extensions\Nibo.SpaceJam.Infraestructure.Extensions.csproj" />
+    <ProjectReference Include="..\Nibo.SpaceJam.Infraestructure.Resources\Nibo.SpaceJam.Infraestructure.Resources.csproj" />
+    <ProjectReference Include="..\Nibo.SpaceJam.Infraestructure\Nibo.SpaceJam.Infraestructure.csproj" />
+    <ProjectReference Include="..\Nibo.SpaceJam.Models\Nibo.SpaceJam.Models.csproj" />
+    <ProjectReference Include="..\Nibo.SpaceJam.Repository.Abstractions\Nibo.SpaceJam.Repository.Abstractions.csproj" />
+    <ProjectReference Include="..\Nibo.SpaceJam.Repository\Nibo.SpaceJam.Repository.csproj" />
+    <ProjectReference Include="..\Nibo.SpaceJam.Services.Abstractions\Nibo.SpaceJam.Services.Abstractions.csproj" />
+    <ProjectReference Include="..\Nibo.SpaceJam.Services\Nibo.SpaceJam.Services.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="appsettings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>

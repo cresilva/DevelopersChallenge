@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>bin\Debug\netstandard2.0\Nibo.SpaceJam.Services.Abstractions.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Nibo.SpaceJam.Models\Nibo.SpaceJam.Models.csproj" />
+    <ProjectReference Include="..\Nibo.SpaceJam.Repository.Abstractions\Nibo.SpaceJam.Repository.Abstractions.csproj" />
+  </ItemGroup>
+
+</Project>

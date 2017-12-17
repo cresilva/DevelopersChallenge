@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="OperationLogModel_ModelId_Display_Description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="OperationLogModel_ModelId_Display_Name" xml:space="preserve">
+    <value>Id do registro</value>
+  </data>
+  <data name="OperationLogModel_ModelType_Display_Description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="OperationLogModel_ModelType_Display_Name" xml:space="preserve">
+    <value>Modelo modificado</value>
+  </data>
+  <data name="OperationLogModel_NewState_Display_Description" xml:space="preserve">
+    <value>Objeto serializado em JSON</value>
+  </data>
+  <data name="OperationLogModel_NewState_Display_Name" xml:space="preserve">
+    <value>Novo estado</value>
+  </data>
+  <data name="OperationLogModel_OldState_Display_Description" xml:space="preserve">
+    <value>Objeto serializado em JSON</value>
+  </data>
+  <data name="OperationLogModel_OldState_Display_Name" xml:space="preserve">
+    <value>Estado anterior</value>
+  </data>
+  <data name="OperationLogModel_OperationDate_Display_Description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="OperationLogModel_OperationDate_Display_Name" xml:space="preserve">
+    <value>Data da operação</value>
+  </data>
+  <data name="OperationLogModel_OperationType_Display_Description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="OperationLogModel_OperationType_Display_Name" xml:space="preserve">
+    <value>Tipo de operação</value>
+  </data>
+  <data name="OperationLogModel_Origin_Display_Description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="OperationLogModel_Origin_Display_Name" xml:space="preserve">
+    <value>Origem</value>
+  </data>
+  <data name="OperationLogModel_UserAddress_Display_Description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="OperationLogModel_UserAddress_Display_Name" xml:space="preserve">
+    <value>IP do responsável</value>
+  </data>
+  <data name="OperationLogModel_UserLogin_Display_Description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="OperationLogModel_UserLogin_Display_Name" xml:space="preserve">
+    <value>Responsável pela operação</value>
+  </data>
+  <data name="TeamModel_Name_Display_Description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TeamModel_Name_Display_Name" xml:space="preserve">
+    <value>Nome do time</value>
+  </data>
+  <data name="TournamentFinalMatchModel_TeamA_Display_Name" xml:space="preserve">
+    <value>Time A</value>
+  </data>
+  <data name="TournamentFinalMatchModel_TeamA_Required" xml:space="preserve">
+    <value>O time A precisa ser informado!</value>
+  </data>
+  <data name="TournamentFinalMatchModel_TeamB_Display_Name" xml:space="preserve">
+    <value>Time B</value>
+  </data>
+  <data name="TournamentFinalMatchModel_TeamB_Required" xml:space="preserve">
+    <value>O time B precisa ser informado!</value>
+  </data>
+  <data name="TournamentModel_Name_Display_Description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TournamentModel_Name_Display_Name" xml:space="preserve">
+    <value>Nome do torneio</value>
+  </data>
+  <data name="TournamentModel_Stage_Display_Description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TournamentModel_Stage_Display_Name" xml:space="preserve">
+    <value>Etapa do torneio</value>
+  </data>
+  <data name="TournamentQuarterFinalsMatchModel_KeyFour_Display_Description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TournamentQuarterFinalsMatchModel_KeyFour_Display_Name" xml:space="preserve">
+    <value>4ª chave</value>
+  </data>
+  <data name="TournamentQuarterFinalsMatchModel_KeyOne_Display_Description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TournamentQuarterFinalsMatchModel_KeyOne_Display_Name" xml:space="preserve">
+    <value>1ª chave</value>
+  </data>
+  <data name="TournamentQuarterFinalsMatchModel_KeyTree_Display_Description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TournamentQuarterFinalsMatchModel_KeyTree_Display_Name" xml:space="preserve">
+    <value>3ª chave</value>
+  </data>
+  <data name="TournamentQuarterFinalsMatchModel_KeyTwo_Display_Description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TournamentQuarterFinalsMatchModel_KeyTwo_Display_Name" xml:space="preserve">
+    <value>2ª chave</value>
+  </data>
+  <data name="TournamentResultModel_Final_Display_Description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TournamentResultModel_Final_Display_Name" xml:space="preserve">
+    <value>Final</value>
+  </data>
+  <data name="TournamentResultModel_QuarterFinals_Display_Description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TournamentResultModel_QuarterFinals_Display_Name" xml:space="preserve">
+    <value>Quartas de final</value>
+  </data>
+  <data name="TournamentResultModel_SemiFinals_Display_Description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TournamentResultModel_SemiFinals_Display_Name" xml:space="preserve">
+    <value>Semi final</value>
+  </data>
+  <data name="TournamentResultModel_Tournament_Display_Description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TournamentResultModel_Tournament_Display_Name" xml:space="preserve">
+    <value>Torneio</value>
+  </data>
+  <data name="TournamentResultModel_Tournament_Required" xml:space="preserve">
+    <value>O torneio precisa ser informado para controlar os resultados!</value>
+  </data>
+  <data name="TournamentResultModel_Winner_Display_Description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TournamentResultModel_Winner_Display_Name" xml:space="preserve">
+    <value>Time vencedor</value>
+  </data>
+  <data name="TournamentResultModel_Winner_Invalid" xml:space="preserve">
+    <value>O vencedor do torneio precisa ser um time registrado na final!</value>
+  </data>
+  <data name="TournamentSemiFinalsMatchModel_KeyOne_Display_Description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TournamentSemiFinalsMatchModel_KeyOne_Display_Name" xml:space="preserve">
+    <value>1ª Chave</value>
+  </data>
+  <data name="TournamentSemiFinalsMatchModel_KeyTwo_Display_Description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TournamentSemiFinalsMatchModel_KeyTwo_Display_Name" xml:space="preserve">
+    <value>2ª Chave</value>
+  </data>
+  <data name="Validation_Required" xml:space="preserve">
+    <value>Campo obrigatório!</value>
+  </data>
+  <data name="Validation_TournamentMatchKeys_Minimum" xml:space="preserve">
+    <value>As chaves precisam ter no mínimo 2 times!</value>
+  </data>
+</root>
